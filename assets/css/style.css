@@ -11,40 +11,65 @@ body {
   /* Enlaza la tipografia Open Sans */
 }
 
-.menu{
-	background-color:  whitesmoke;
-	position: fixed;
-	top: 0;
-	left:0;
-	width: 100%;
-    height: 40px;
-    display: flex;
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.menu.flex-container{
+.seccion-nav{
+    max-height: 80px;
+    align-items: center;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 26px;
+    z-index: 1;
+    font-weight: 500;
+}
+
+#nav-bar {
+	width: 100%;
 	justify-content: flex-start;
 }
 
 .logo-container{
-	margin-left: auto;
-	margin-right: 20px;
+    margin-left: auto;
+    margin-right: 217px;
+    margin-top: 7px;
 }
 
-.flex-container .logo-container{
-	width: 70px;
-	height: 70px;
-	justify-content: flex-start;
+.logo-container a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
 }
 
+#logo-white{
+    width: 15%;
+    max-height: 80px;
+	padding: 15px;
+	margin-left: 82px;
+}
 
+#secciones{
+    width: 63%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 56px;
+    font-weight: 200;
+}
 
-.flex-container{
-	display: flex;
+.flex-container {
+    display: flex;
 }
 
 .text-uppercase{
 	text-transform: uppercase;
 }
+/* SECCION DOS */
 
 .flex-container.main{
 	flex-direction: row;
@@ -92,4 +117,16 @@ body {
 .text,.get-started{
     width: 27%;
     color: white;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: whitesmoke;
+    height: 53px;
+    margin-top: -15px;
+}
+
+footer p{
+	margin-left:80px;
 }
